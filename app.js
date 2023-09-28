@@ -11,7 +11,7 @@ btnOne.addEventListener('click', () => {
     btnOne.style.borderBottom='3px solid rgb(18, 18, 151)';
 
     register.addEventListener('click', () => {
-        alert('Complete the information')
+        confirm('Complete the information')
     })
 })
 btnTwo.addEventListener('click', () => {
